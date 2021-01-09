@@ -10,8 +10,12 @@ permutohedron = "~0.2.2"
 primal = "~0.2.3"
 
 [lib]
-name = "cpuid"
+crate-type = ["cdylib"]
+bench = false
 
 [[bin]]
-name = "cpuid"
+name = "day1"
+
+[[bin]]
+name = "day2"
 
